@@ -57,3 +57,44 @@
     
 
     #TODO-3: - print the ASCII art from 'stages' that corresponds to the current number of 'lives' the user has remaining.
+
+#Step 5
+
+
+# from hangman_art import logo
+
+#TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
+#Delete this line: word_list = ["ardvark", "baboon", "camel"]
+
+
+#TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
+
+
+
+#Testing code
+
+
+#Create blanks
+
+
+    #TODO-4: - If the user has entered a letter they've already guessed, print the letter and let them know.
+    
+
+    #Check guessed letter
+    
+        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+        
+
+    #Check if user is wrong.
+    
+        #TODO-5: - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
+        
+
+    #Join all the elements in the list and turn it into a String.
+    
+
+    #Check if user has got all letters.
+    
+
+    #TODO-2: - Import the stages from hangman_art.py and make this error go away.
+    
