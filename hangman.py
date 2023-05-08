@@ -8,6 +8,12 @@ word_list = ["ardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 print(chosen_word)
 
+#Step 4
+
+#TODO-8: - Create a variable called 'lives' to keep track of the number of lives left. 
+#Set 'lives' to equal 6.
+lives = 6
+
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 
 # guess = input("Guess a letter: ")
@@ -33,7 +39,7 @@ for char in chosen_word:
 
 #Step 3
 
-#TODO-1: - Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word and 'display' has no more blanks ("_"). Then you can tell the user they've won.
+#TODO-7: - Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word and 'display' has no more blanks ("_"). Then you can tell the user they've won.
 
 while '_' in display:
     guess = input("Guess a letter: ")
@@ -52,10 +58,7 @@ while '_' in display:
 
     print(display)
 
-#Step 4
 
-#TODO-1: - Create a variable called 'lives' to keep track of the number of lives left. 
-#Set 'lives' to equal 6.
 
 
 #Testing code
