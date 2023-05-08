@@ -41,7 +41,10 @@ for char in chosen_word:
 
 #TODO-7: - Use a while loop to let the user guess again. The loop should only stop once the user has guessed all the letters in the chosen_word and 'display' has no more blanks ("_"). Then you can tell the user they've won.
 
-while '_' in display:
+end_of_game = False
+
+# while '_' in display:
+while not end_of_game:
     guess = input("Guess a letter: ")
 
 
@@ -56,33 +59,24 @@ while '_' in display:
 #TODO-6: - Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
 #Hint - Don't worry about getting the user to guess the next letter. We'll tackle that in step 3.
 
-    print(display)
+    print(display)    
 
-
-
-
-#Testing code
-
-
-#Create blanks
-
-
-    #Check guessed letter
-    
-
-    #TODO-2: - If guess is not a letter in the chosen_word,
+    #TODO-9: - If guess is not a letter in the chosen_word,
     #Then reduce 'lives' by 1. 
     #If lives goes down to 0 then the game should stop and it should print "You lose."
     
 
   
     #Join all the elements in the list and turn it into a String.
-    
+    print(f"{' '.join(display)}")
 
     #Check if user has got all letters.
-    
+    if "_" not in display:
+        end_of_game = True
+        print("You win.")
 
     #TODO-3: - print the ASCII art from 'stages' that corresponds to the current number of 'lives' the user has remaining.
+
 
 #Step 5
 
